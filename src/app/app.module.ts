@@ -10,6 +10,9 @@ import { HomePage } from '../pages/home/home';
 import { DataServiceProvider } from '../providers/data-service/data-service';
 import { HttpModule } from '@angular/http';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { FileTransfer, FileUploadOptions, FileTransferObject } from '@ionic-native/file-transfer';
+import { File } from '@ionic-native/file';
+import { NativeStorage } from '@ionic-native/native-storage';
 
 @NgModule({
   declarations: [
@@ -32,6 +35,10 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     BarcodeScanner,
     Toast,
+    NativeStorage,
+    File,
+    FileTransfer,
+    FileTransferObject,
     HttpClientModule,
     DataServiceProvider
   ]

@@ -3,12 +3,14 @@
     "plu":"01234567895",
     "name":"Gaming DDR5 RAM 16GB",
     "price":76,
+    "image":"https://www.benchmarkemail.com/images/web4/misc/abtesting-power.gif",
     "desc":"Gaming DDR5 RAM 16GB PC-128000 For x64 PC"
   },
   {
     "plu":"01234567898",
     "name":"Intel Core i7 3.3GHz",
     "price":200,
+    "price":"https://prod-discovery.edx-cdn.org/media/course/image/62ef50ba-61ca-4e4d-bd12-cf6006ffd58c-57e7a7434537.small.jpg",
     "desc":"Intel Core i7 3.3GHz L2 16MB 4.6ns"
   }
 ]

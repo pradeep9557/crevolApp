@@ -1,13 +1,17 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
+    <!-- <ion-title>
       Crevol App
+    </ion-title> -->
+    <ion-title>
+      Test App
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <span>Hi Sudhakar, Please generate Qr Code Online with '01234567895' or '01234567898' and scan to see the results.</span>
+
+  <!-- <span>Hi Sudhakar, Please generate Qr Code Online with '01234567895' or '01234567898' and scan to see the results.</span> -->
   <h1>
   <button ion-button color="dark" full round (click)="scan()">Start Scan</button>
 </h1>
@@ -29,3 +33,9 @@
   </ion-card-content>
 </ion-card>
 </ion-content>
+<ion-footer>
+  <span *ngIf="lastSyncTime">Last Sync on:- {{lastSyncTime | date: 'dd/MM/yyyy H:mm'}}</span>
+  <ion-toolbar>
+    <button ion-button color="dark" full round (click)="sync()">Sync</button>
+  </ion-toolbar>
+</ion-footer>
